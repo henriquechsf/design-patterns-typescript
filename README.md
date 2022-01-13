@@ -8,6 +8,8 @@ Por favor, acompanhe os vídeos para maior entendimento.
 
 As pastas estão organizadas com as categorias dos padrões de projeto segundo o livro da GoF. São elas, behavioural (comportamentais), creational (criacionais) e structural (estruturais).
 
-Cada pasta contém um README detalhando a categoria em si e os padrões de projeto nela presentes.
+[Estruturais](https://github.com/henriquechsf/design-patterns-typescript/tree/master/src/structural)
 
-Cada padrão de projeto está dentro de uma pasta com seu nome. Existe um README descrevendo o padrão, um ou mais diagramas e trechos de código para exemplificação de implementação.
+[Criacionais](https://github.com/henriquechsf/design-patterns-typescript/tree/master/src/creational)
+
+[Comportamentais](https://github.com/henriquechsf/design-patterns-typescript/tree/master/src/behavioural)
