@@ -1,10 +1,8 @@
+import { EcommerceShoppingCart } from '../ecommerce-shopping-cart';
 import { DiscountStrategy } from './discount-strategy';
-import { ECommerceShoppingCart } from './e-commerce-shopping-cart';
 
 export class NewDiscount extends DiscountStrategy {
-  protected discount = 0;
-
-  getDiscount(cart: ECommerceShoppingCart): number {
+  getDiscount(cart: EcommerceShoppingCart): number {
     const total = cart.getTotal();
 
     if (total >= 150) {
